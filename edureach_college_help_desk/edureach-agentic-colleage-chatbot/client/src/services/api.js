@@ -1,6 +1,6 @@
 // const BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
 
-const BASE_URL = `${import.meta.env.VITE_API_BASE_URL || "http://localhost:3000"}/api`; // Replace with your actual API base URL
+const BASE_URL = `${import.meta.env.VITE_API_URL || "http://localhost:3000"}/api`; // Replace with your actual API base URL
 
 async function request(endpoint, options = {}) {
   const url = `${BASE_URL}${endpoint}`;
